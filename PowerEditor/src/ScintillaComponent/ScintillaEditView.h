@@ -1023,6 +1023,10 @@ protected:
 		setLexer(L_VISUALPROLOG, LIST_0 | LIST_1 | LIST_2 | LIST_3);
 	}
 
+	void setHollywoodLexer() {
+		setLexer(L_HOLLYWOOD, LIST_0 | LIST_1 | LIST_2 | LIST_3);
+	};
+
     //--------------------
 
 	void setSearchResultLexer() {
